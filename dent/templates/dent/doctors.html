@@ -1,0 +1,52 @@
+{%extends "dent/master.html"%}
+{%block vasat%}
+{%load static%}
+<h1 class="font-weight-normal">دندانپزشکان شهرکرد</h1>
+      </div> <!-- .container -->
+    </div> <!-- .banner-section -->
+  </div> <!-- .page-banner -->
+
+  <div class="page-section bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+
+          <div class="row">
+            
+            <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
+              <div class="card-doctor">
+                <div class="header">
+                  <img src="{{dcr.img.url}}" alt="">
+                  
+                </div>
+                <div class="body">
+                  <p class="text-xl mb-0">{{dcr.nam}} {{dcr.famil}}</p>
+                  <span class="text-sm text-grey">{{dcr.takhasos}}</span>
+                  
+                </div>
+              </div>
+            </div>
+            
+    
+            
+    
+            
+    
+            
+    
+            
+    
+            
+
+          </div>
+          <div>
+            <p>
+              {{dcr.tozih}}
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div> <!-- .container -->
+  </div> <!-- .page-section -->
+  {%endblock%}

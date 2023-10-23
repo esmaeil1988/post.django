@@ -1,0 +1,39 @@
+{%extends "dent/master.html"%}
+{%block vasat%}
+{%load static%}
+
+</nav>
+<h1 class="font-weight-normal">فرم ثبت نام دندانپزشکان</h1>
+</div> <!-- .container -->
+</div> <!-- .banner-section -->
+</div> <!-- .page-banner -->
+
+<div class="page-section">
+<div class="container">
+<h1 class="text-center wow fadeInUp">ثبت نام</h1>
+
+<form class="contact-form mt-5">
+<div class="row mb-3">
+<div class="col-sm-6 py-2 wow fadeInLeft">
+  <label for="fullName">Name</label>
+  <input type="text" name="nam" id="fullName" class="form-control" placeholder="نام و نام خانوادگی">
+</div>
+<div class="col-sm-6 py-2 wow fadeInRight">
+  <label for="emailAddress">Email</label>
+  <input type="text" name="email" id="emailAddress" class="form-control" placeholder="ایمیل">
+</div>
+<div class="col-12 py-2 wow fadeInUp">
+  <label for="subject">Subject</label>
+  <input type="text" name="onvan" id="subject" class="form-control" placeholder="موضوع">
+</div>
+
+<div class="col-12 py-2 wow fadeInUp">
+  <label for="message">Message</label>
+  <textarea name="matn" id="message" class="form-control" rows="8" placeholder="لطفاً تخصص، آدرس و سایر اطلاعات خود جهت نمایش در سایت را در این قسمت وارد کنید"></textarea>
+</div>
+</div>
+<button type="submit" class="btn btn-primary wow zoomIn">ثبت و ارسال</button>
+</form>
+</div>
+</div>
+{%endblock%}

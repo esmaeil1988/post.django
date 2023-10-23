@@ -1,0 +1,51 @@
+{%extends "dent/master.html"%}
+{%block vasat%}
+{%load static%}
+<h1 class="font-weight-normal">آخرین اخبار دندانپزشکی</h1>
+      </div> <!-- .container -->
+    </div> <!-- .banner-section -->
+  </div> <!-- .page-banner -->
+
+  <div class="page-section bg-light">
+    <div class="container">
+      
+      <div class="row mt-5">
+
+
+        
+        
+
+
+
+
+        
+
+
+
+
+       
+        <div class="col-lg-4 py-2 wow zoomIn">
+          <div class="card-blog">
+            <div class="header">
+              
+              <a href="blog-details.html" class="post-thumb">
+                <img src="{{nw.aks.url}}" alt="">
+              </a>
+            </div>
+            <div class="body">
+              <h5 class="post-title">{{nw.onvan}}</h5>
+              <div class="site-info">
+                <div class="avatar mr-2">
+                  <div class="avatar-img">
+                    
+                  </div>
+                  <span>{{nw.manba}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>
+          {{nw.matn}}
+        </p>
+        {%endblock%}
